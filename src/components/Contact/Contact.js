@@ -1,6 +1,10 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import NavigationBar from '../Shared/NavigationBar/NavigationBar';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import EmailIcon from '@material-ui/icons/Email';
 
 
 const Contact = () => {
@@ -25,6 +29,10 @@ const Contact = () => {
                 <div className="col-md-5 offset-md-1 text-white">
                 <h2>Get In Touch</h2>
                 <p> I'm currently looking for any new opportunities, my inbox is always open. <br/> Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <a href="https://www.linkedin.com/in/muhammad-naqib-963b80180/" target='_blank'> <LinkedInIcon className="icon" style={{ fontSize: '30px' }} /></a>
+                   <a href="https://github.com/naqib74" target='_blank'> <GitHubIcon className="icon" style={{ fontSize: '30px' }} /></a>
+                   <a href="https://www.facebook.com/nakib.hassan.948" target='_blank'> <FacebookIcon className="icon" style={{ fontSize: '30px' }} /></a>
+                   <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target='_blank'> <EmailIcon className="icon" style={{ fontSize: '30px' }} /></a>
                 </div>
                 <div className="col-md-5">
                 <form className="contact-form" onSubmit={sendEmail}>
@@ -41,7 +49,7 @@ const Contact = () => {
                            <textarea name="message" className="form-control" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
                        </div>
                        <div className="form-group">
-                       <input type="submit" value="Send" />
+                       <input className='btn btn-primary' type="submit" value="Send" />
                        </div>
                    </form>
            
