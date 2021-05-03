@@ -49,7 +49,7 @@ const Contact = () => {
                            <textarea name="message" className="form-control" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
                        </div>
                        <div className="form-group">
-                       <input className='btn btn-primary' type="submit" value="Send" />
+                       <input style={{backgroundColor:'#FC1056',color:'white'}} className='btn' type="submit" value="Send" />
                        </div>
                    </form>
            

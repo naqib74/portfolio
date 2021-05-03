@@ -23,7 +23,7 @@ const About = () => {
                    <a href="https://www.facebook.com/nakib.hassan.948" target='_blank'> <FacebookIcon className="icon" style={{ fontSize: '30px' }} /></a>
                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target='_blank'> <EmailIcon className="icon" style={{ fontSize: '30px' }} /></a>
                    <br/>
-                   <Link to='/contact'><button style={{marginLeft:'10px'}} className='btn btn-primary mt-3'>Hire Me</button></Link>
+                   <Link to='/contact'><button style={{marginLeft:'10px',backgroundColor:'#FC1056',color:'white'}} className='btn mt-3'>Hire Me</button></Link>
                 </div>
                 <div className="col-md-6 col-sm-6 col-12 text-white mt-4">
                     <h4>Programming Skills</h4>
